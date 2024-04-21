@@ -1,0 +1,28 @@
+1713716715586	geckodriver	INFO	Listening on 127.0.0.1:54526
+1713716718655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54527" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofile6rRn8n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713716718977	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713716719085	Marionette	INFO	Listening on port 54536
+WebDriver BiDi listening on ws://127.0.0.1:54527
+Read port: 54536
+1713716719307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: wr_renderer_render: OutOfMemory
+[GFX1-]: Handling webrender error 2
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Failed to load a program object with a program binary: gpu_cache_update renderer ANGLE (Intel, Intel(R) UHD Graphics Direct3D11 vs_5_0 ps_5_0, D3D11-30.0.100.9805)
+
+[ERROR webrender::device::gl] Failed to load a program object with a program binary: gpu_cache_update renderer ANGLE (Intel, Intel(R) UHD Graphics Direct3D11 vs_5_0 ps_5_0, D3D11-30.0.100.9805)
+    
+[GFX1-]: shader-cache: Failed program_binary
+[ERROR webrender_bindings::program_cache] shader-cache: Failed program_binary
+[GFX1-]: Failed to compile vertex shader: gpu_cache_update
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: gpu_cache_update
+    
+[GFX1-]: wr_renderer_render: Shader(Compilation("gpu_cache_update", ""))
+out of memory: 0x0000000000000080 bytes requested
+console.error: "Could not load engine google@search.mozilla.org: Error: File resource://search-extensions/google/ does not contain a valid manifest"
+out of memory: 0x0000000000000058 bytes requested
+[GFX1-]: wr_renderer_render: OutOfMemory

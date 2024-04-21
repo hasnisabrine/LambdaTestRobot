@@ -1,0 +1,17 @@
+1713719228637	geckodriver	INFO	Listening on 127.0.0.1:56184
+1713719231711	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofilerMuE0O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713719232026	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713719232121	Marionette	INFO	Listening on port 56193
+WebDriver BiDi listening on ws://127.0.0.1:56185
+Read port: 56193
+1713719232308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56185/devtools/browser/eab1a1cd-d5cd-4c8c-9bb1-27a54f6ceb02
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+1713719262044	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713719317864	Marionette	INFO	Stopped listening on port 56193
+Dynamically enable window occlusion 1

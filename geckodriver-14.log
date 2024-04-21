@@ -1,0 +1,304 @@
+1713719451080	geckodriver	INFO	Listening on 127.0.0.1:56439
+1713719454147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56440" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofileqItSIn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713719454463	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713719454555	Marionette	INFO	Listening on port 56448
+WebDriver BiDi listening on ws://127.0.0.1:56440
+Read port: 56448
+1713719454736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Failed to link shader program: ps_copy
+error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+
+Warning: D3D shader compilation failed with default flags. (ps_5_0)
+ Retrying with skip validation
+error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+
+Warning: D3D shader compilation failed with skip validation flags. (ps_5_0)
+ Retrying with skip optimization
+error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+
+Warning: D3D shader compilation failed with skip optimization flags. (ps_5_0)
+
+Failed to create D3D Shaders
+
+[ERROR webrender::device::gl] Failed to link shader program: ps_copy
+    error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+    
+    Warning: D3D shader compilation failed with default flags. (ps_5_0)
+     Retrying with skip validation
+    error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+    
+    Warning: D3D shader compilation failed with skip validation flags. (ps_5_0)
+     Retrying with skip optimization
+    error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e
+    
+    Warning: D3D shader compilation failed with skip optimization flags. (ps_5_0)
+    
+    Failed to create D3D Shaders
+    
+[GFX1-]: Failed to link shader program: ps_copy
+
+[ERROR webrender::device::gl] Failed to link shader program: ps_copy
+    
+[GFX1-]: Failed to link shader program: ps_copy
+
+[ERROR webrender::device::gl] Failed to link shader program: ps_copy
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_rectangle
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_rectangle
+    
+[GFX1-]: Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_rectangle
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_rectangle
+    
+[GFX1-]: Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+    
+[GFX1-]: Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+    
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: cs_border_solid
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_border_solid
+    
+[GFX1-]: Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_blur_ALPHA_TARGET
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_box_shadow_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_box_shadow_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_rectangle_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_rectangle_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: cs_border_solid
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_border_solid
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_box_shadow_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_box_shadow_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: cs_clip_rectangle_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: cs_clip_rectangle_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_solid_ALPHA_PASS
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_solid_ALPHA_PASS
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: ps_text_run_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_text_run_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_linear_gradient
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_linear_gradient
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_mask_FAST_PATH
+    
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=524288, y=524288, w=1024, h=512)
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_opacity_ALPHA_PASS
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_opacity_ALPHA_PASS
+    
+[GFX1-]: Failed to compile vertex shader: brush_solid_ALPHA_PASS
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_solid_ALPHA_PASS
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: ps_text_run_ALPHA_PASS_DUAL_SOURCE_BLENDING_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_text_run_ALPHA_PASS_DUAL_SOURCE_BLENDING_TEXTURE_2D
+    
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=525312, y=524288, w=576, h=512)
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_opacity_ALPHA_PASS
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_opacity_ALPHA_PASS
+    
+[GFX1-]: Failed to compile vertex shader: brush_solid_ALPHA_PASS
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_solid_ALPHA_PASS
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: brush_image_ALPHA_PASS_TEXTURE_2D
+    
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=524288, y=524800, w=1024, h=415)
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: DCompositionSurface::BeginDraw failed: 0x8007000e Rect(x=525312, y=524800, w=576, h=415)
+[GFX1-]: Failed to compile vertex shader: ps_clear
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_clear
+    
+[GFX1-]: Failed to compile vertex shader: ps_quad_textured
+
+[ERROR webrender::device::gl] Failed to compile vertex shader: ps_quad_textured
+    
+[GFX1-]: wr_renderer_render: Shader(Link("ps_copy", "error X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e\n\nWarning: D3D shader compilation failed with default flags. (ps_5_0)\n Retrying with skip validation\nerror X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e\n\nWarning: D3D shader compilation failed with skip validation flags. (ps_5_0)\n Retrying with skip optimization\nerror X8000: D3D11 Internal Compiler Error: Invalid Bytecode: Failed to parse shader using reference shader parser: 0x8007000e\n\nWarning: D3D shader compilation failed with skip optimization flags. (ps_5_0)\n\nFailed to create D3D Shaders\n"))
+[GFX1-]: wr_renderer_render: Shader(Link("ps_copy", ""))
+[GFX1-]: wr_renderer_render: Shader(Link("ps_copy", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_rectangle", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_blur_ALPHA_TARGET", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_rectangle", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_blur_ALPHA_TARGET", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_blur_ALPHA_TARGET", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_clear", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_border_solid", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_blur_ALPHA_TARGET", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_box_shadow_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_rectangle_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_textured", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_clear", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_border_solid", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_box_shadow_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("cs_clip_rectangle_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_textured", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("brush_image_ALPHA_PASS_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("brush_solid_ALPHA_PASS", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_textured", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_text_run_ALPHA_PASS_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("brush_image_ALPHA_PASS_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("brush_image_ALPHA_PASS_TEXTURE_2D", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("brush_linear_gradient", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_textured", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+[GFX1-]: wr_renderer_render: Shader(Compilation("ps_quad_mask_FAST_PATH", ""))
+out of memory: 0x00000000000000A8 bytes requested
+out of memory: 0x000000000001DEE0 bytes requested

@@ -1,0 +1,19 @@
+1713716697069	geckodriver	INFO	Listening on 127.0.0.1:54445
+1713716700150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54446" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofileU61J7x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713716700461	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713716700551	Marionette	INFO	Listening on port 54457
+Read port: 54457
+WebDriver BiDi listening on ws://127.0.0.1:54446
+1713716700622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54446/devtools/browser/35865922-4771-4a7a-bdc9-efe0fd71a6f2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+1713716730480	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713716760866	Marionette	INFO	Stopped listening on port 54457
+Dynamically enable window occlusion 1
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping

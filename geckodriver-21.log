@@ -1,0 +1,21 @@
+1713723339773	geckodriver	INFO	Listening on 127.0.0.1:58844
+1713723342848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58845" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofile9dFqMc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713723343169	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713723343256	Marionette	INFO	Listening on port 58856
+WebDriver BiDi listening on ws://127.0.0.1:58845
+Read port: 58856
+1713723343433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58845/devtools/browser/c2bd24bf-0024-4483-8a23-7fb915d2cbc5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+1713723373201	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713723892624	Marionette	INFO	Stopped listening on port 58856
+Dynamically enable window occlusion 1

@@ -1,0 +1,18 @@
+1713715822769	geckodriver	INFO	Listening on 127.0.0.1:53839
+1713715825852	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53840" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Sabrine\\AppData\\Local\\Temp\\rust_mozprofileBYnznH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713715826182	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713715826276	Marionette	INFO	Listening on port 53849
+WebDriver BiDi listening on ws://127.0.0.1:53840
+Read port: 53849
+1713715826459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53840/devtools/browser/3d37057f-54f3-4181-8470-6e514d9d0e88
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ecommerce-playground.lambdatest.io."
+1713715856206	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713715928969	Marionette	INFO	Stopped listening on port 53849
+Dynamically enable window occlusion 1

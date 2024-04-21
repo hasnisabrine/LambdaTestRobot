@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.8 on win32)" generated="2024-04-21T19:31:20.894480" rpa="false" schemaversion="5">
+<suite id="s1" name="ResetMotPasse" source="C:\Users\Sabrine\WorkspaceRobot\Robot-ecomerce-sabrine\ResetMotPasse.robot">
+<test id="s1-t1" name="Reset Password Successfully" line="7">
+<kw name="Home Page" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:21.111054" level="INFO">Opening browser 'firefox' to base url 'https://ecommerce-playground.lambdatest.io/'.</msg>
+<arg>${HomeUrl}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-04-21T19:31:21.111054" elapsed="11.439476"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:32.561879" level="INFO">Page title is 'Your Store'.</msg>
+<arg>Your Store</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-04-21T19:31:32.550530" elapsed="0.011349"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-04-21T19:31:32.562875" elapsed="0.261437"/>
+</kw>
+<arg>${Home-Url}</arg>
+<status status="PASS" start="2024-04-21T19:31:21.110058" elapsed="11.714254"/>
+</kw>
+<kw name="Forgoten Password Page" owner="keywords">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:32.826307" level="INFO">Clicking element '//header/div[@id='main-navigation']/div[@id='entry_217831']/div[1]/div[3]/nav[1]/div[1]/ul[1]/li[6]/a[1]'.</msg>
+<arg>//header/div[@id='main-navigation']/div[@id='entry_217831']/div[1]/div[3]/nav[1]/div[1]/ul[1]/li[6]/a[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T19:31:32.826307" elapsed="3.513252"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:36.340556" level="INFO">Clicking element '//body/div[1]/div[5]/div[1]/div[1]/aside[1]/div[1]/a[3]'.</msg>
+<arg>//body/div[1]/div[5]/div[1]/div[1]/aside[1]/div[1]/a[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T19:31:36.339559" elapsed="1.656494"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:38.003746" level="INFO">Page title is 'Forgot Your Password?'.</msg>
+<arg>Forgot Your Password?</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-04-21T19:31:37.996053" elapsed="0.007693"/>
+</kw>
+<kw name="Location Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:38.007745" level="INFO">Current location is 'https://ecommerce-playground.lambdatest.io/index.php?route=account/forgotten'.</msg>
+<arg>${ForgotPasswordUrl}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="PASS" start="2024-04-21T19:31:38.003746" elapsed="0.003999"/>
+</kw>
+<arg>${ForgotPassword-url}</arg>
+<status status="PASS" start="2024-04-21T19:31:32.825309" elapsed="5.182436"/>
+</kw>
+<kw name="Forgoten Password Input" owner="keywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:38.009753" level="INFO">Typing text 'sabrinetest@gmail.com' into text field '//input[@id='input-email']'.</msg>
+<arg>//input[@id='input-email']</arg>
+<arg>${mail}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T19:31:38.009753" elapsed="0.069469"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:38.079222" level="INFO">Clicking element '//button[contains(text(),'Continue')]'.</msg>
+<arg>//button[contains(text(),'Continue')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-21T19:31:38.079222" elapsed="1.016552"/>
+</kw>
+<arg>${email}</arg>
+<status status="PASS" start="2024-04-21T19:31:38.008753" elapsed="1.087021"/>
+</kw>
+<kw name="Location Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:39.103245" level="INFO">Current location is 'https://ecommerce-playground.lambdatest.io/index.php?route=account/login'.</msg>
+<arg>https://ecommerce-playground.lambdatest.io/index.php?route=account/login</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="PASS" start="2024-04-21T19:31:39.097773" elapsed="0.005472"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:39.104269" level="INFO">Verifying element '//body/div[1]/div[5]/div[1]/div[1]' contains exact text 'An email with a confirmation link has been sent your email address.'.</msg>
+<arg>//body/div[1]/div[5]/div[1]/div[1]</arg>
+<arg>An email with a confirmation link has been sent your email address.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-04-21T19:31:39.104269" elapsed="0.020454"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-04-21T19:31:39.128673" level="INFO">Page title is 'Account Login'.</msg>
+<arg>Account Login</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-04-21T19:31:39.125298" elapsed="0.003375"/>
+</kw>
+<status status="PASS" start="2024-04-21T19:31:21.109084" elapsed="18.021522"/>
+</test>
+<test id="s1-t2" name="Reset Password With Unregistred Email" line="15">
+<kw name="Generate Random String" owner="String">
+<msg time="2024-04-21T19:31:39.137504" level="FAIL">ValueError: Cannot convert 'length' argument '12 [LETTERS]' to an integer.</msg>
+<var>${testEmail}</var>
+<arg>12 [LETTERS]</arg>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="FAIL" start="2024-04-21T19:31:39.136509" elapsed="0.000995">ValueError: Cannot convert 'length' argument '12 [LETTERS]' to an integer.</status>
+</kw>
+<kw name="Home Page" owner="keywords">
+<arg>${Home-Url}</arg>
+<status status="NOT RUN" start="2024-04-21T19:31:39.138501" elapsed="0.000000"/>
+</kw>
+<kw name="Forgoten Password Page" owner="keywords">
+<arg>${ForgotPassword-url}</arg>
+<status status="NOT RUN" start="2024-04-21T19:31:39.139561" elapsed="0.000000"/>
+</kw>
+<kw name="Forgoten Password Input" owner="keywords">
+<arg>${testEmail}@gmail.com</arg>
+<status status="NOT RUN" start="2024-04-21T19:31:39.139561" elapsed="0.000000"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<arg>//body/div[1]/div[5]/div[1]/div[1]</arg>
+<arg>Warning: The E-Mail Address was not found in our records, please try again!</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="NOT RUN" start="2024-04-21T19:31:39.140491" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-04-21T19:31:39.135497" elapsed="0.004994">ValueError: Cannot convert 'length' argument '12 [LETTERS]' to an integer.</status>
+</test>
+<status status="FAIL" start="2024-04-21T19:31:20.896475" elapsed="18.246503"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="ResetMotPasse">ResetMotPasse</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
